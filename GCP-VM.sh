@@ -147,17 +147,9 @@ fi
 # 定义可用的区域 (按优先级排序)
 # 基于Google Cloud的可持续性和可用性数据
 regions=(
-   # "europe-west4"          # 荷兰 - 大量可再生能源 (高优先级)
-   # "europe-west1"          # 比利时 - 可再生能源 (高优先级)
-   # "europe-north1"         # 芬兰 - 大量水电和风电 (高优先级)
-   # "southamerica-east1"    # 巴西圣保罗 - 水电 (高优先级)
     "asia-southeast1"       # 新加坡 - 高优先级
     "asia-northeast1"       # 日本东京 - 相对较低碳排放 (中优先级)
     "asia-northeast3"       # 韩国首尔 - 相对较低碳排放 (中优先级)
-   # "europe-west3"          # 德国法兰克福 - 可再生能源 (中优先级)
-   # "australia-southeast1"  # 澳大利亚悉尼 - 备用 (低优先级)
-   # "us-west3"              # 美国西部 (盐湖城) - 备用 (低优先级)
-   # "us-east4"              # 美国东部北部 (弗吉尼亚北部) - 备用 (低优先级)
     "europe-west2"          # 英国伦敦 - 备用 (低优先级)
     "asia-east1"            # 台湾 - 备用 (低优先级)
     "us-west2"              # 美国西部 (洛杉矶) - 部分可再生能源 (低优先级)
@@ -165,18 +157,10 @@ regions=(
 
 # 区域对应的城市名称（用于虚拟机命名）
 region_names=(
-    #"eu-west4"
-    #"eu-west1"
-    #"eu-north1"
-    #"sa-east1"
     "asia-se1"
     "asia-ne1"
     "asia-ne3"
-    #"eu-west3"
-    #"au-se1"
-    #"us-west3"
-    #"us-east4"
-    "eu-west2"
+    "europe-west2"
     "asia-east1"
     "us-west2"
 )
