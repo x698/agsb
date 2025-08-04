@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT_PASSWORD="acW8E!X#hX0ktRMs"
+ROOT_PASSWORD="Huawei988*"
 PROJECT_ID=$(gcloud config get-value project)
 MAX_CONCURRENT=12  # 最大并发数
 
